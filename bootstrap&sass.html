@@ -1,0 +1,550 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="img/favicon.png" rel="icon">
+        <title> Bootstrap & SCSS </title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- 1st section (home & navBar)-->
+        <section id="homeSection" class="container-fluid ">
+                
+                <ul class="navBar fixed-top list-inline py-3">
+                   <li class="list-inline-item col-3"><img src="img/logo.png" alt="logo" width="200" height="40"></li>
+                   <li class="list-inline-item ml-4"><a href="#homeSection" class="pb-2">Home</a></li>
+                   <li class="list-inline-item ml-2"><a href="#aboutSection" class=" pb-2">About</a></li>
+                   <li class="list-inline-item ml-2"><a href="#speakersSection" class="pb-2">Speakers</a></li>
+                   <li class="list-inline-item ml-2"><a href="#scheduleSection" class="pb-2">Schedule</a></li>
+                   <li class="list-inline-item ml-2"><a href="#venueSection" class="pb-2">Venue</a></li>
+                   <li class="list-inline-item ml-2"><a href="#hotelsSection" class="pb-2">Hotels</a></li>
+                   <li class="list-inline-item ml-2"><a href="#gallerySection" class="pb-2">Gallery</a></li>
+                   <li class="list-inline-item ml-2"><a href="#" class="pb-2">Sponsors</a></li>
+                   <li class="list-inline-item ml-2 "><a href="#" class="pb-2">Contact</a></li>
+                   <li class="list-inline-item ml-2 ">
+                       <button  type="button"class="btn btn-outline-danger px-4 buyTickets">
+                            <a href="#" class="text-white"> Buy Tickets</a>
+                       </button>
+                    
+                   </li> 
+                </ul>
+                <div class="titlePart text-center text-light">
+                     <h1 class="font-weight-bolder">THE ANNUAL</h1>
+                     <h1 class="font-weight-bolder"><span class="red">MARKETING</span> CONFERENCE</h1>
+                     <h5>10-12 December, Downtown Conference Center, New York</h5>
+                     <br>
+                        <!-- video play button -->
+                     <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" target="_blank"> 
+                            <div class="circle text-center my-2 rounded-circle">
+                                   <i class="fas fa-play text-white"></i>
+                            </div>
+                     </a>      
+                     <br>
+                     <button type="button"class="btn text-white px-4 aboutBtn mb-3"> About The Event</button>
+                </div>
+             
+        </section>
+        <!-- 2nd section (about)-->
+        <section id="aboutSection" class="container-fluid text-light">
+            <div class="row">
+                <div class="col-6">
+                     <h1>About The Event</h1>
+                     <P> Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet<br>
+                        accusamus error amet eius aut accusantium et. Non odit consequatur<br>
+                        repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in est ut
+                        optio sequi unde.
+
+                     </P>
+                </div>
+                <div class="col-3">
+                        <h6>WHERE</h6>
+                        <P> Downtown Conference Center,<br>
+                             New York</P>
+                    
+                </div>
+                <div class="col-3">
+                        <h6>WHEN</h6>
+                        <P> Monday to Wednesday <br>
+                        10-12 December
+                        </P>
+                </div>
+
+            </div>
+
+        </section>
+
+
+         <!-- 3rd section (speakers)-->
+        <section id="speakersSection" class="container text-center p-5">
+          <h1 class="font-weight-bold mt-3">EVENT SPEAKERS</h1>
+          <h5 class="text-secondary ">Here are some of our speakers</h5>
+          <hr class="redLine">
+          <br>
+          <div class="card-deck mt-5">
+                <div class="card text-white">
+                        <img class="card-img" src="img/speakers/1.jpg" alt="Card image">
+                        <div class="card-img-overlay textHover pt-2">
+                          <h4 class="card-title">Brenden Legros</h4>
+                          <p class="card-text font-italic">Quas alias incidunt</p>
+                          <p class="card-text">
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-google-plus-g"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                          </p>
+                        </div>
+                </div>
+                <div class="card text-white">
+                        <img class="card-img" src="img/speakers/2.jpg" alt="Card image">
+                        <div class="card-img-overlay textHover pt-2">
+                          <h4 class="card-title">Hubert Hirthe</h4>
+                          <p class="card-text font-italic">Consequuntur odio aut</p>
+                          <p class="card-text">
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-google-plus-g"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                          </p>
+                        </div>
+                </div>
+                <div class="card text-white">
+                        <img class="card-img" src="img/speakers/3.jpg" alt="Card image">
+                        <div class="card-img-overlay textHover pt-2">
+                          <h4 class="card-title">Cole Emmerich</h4>
+                          <p class="card-text font-italic">Fugiat laborum et</p>
+                          <p class="card-text">
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-google-plus-g"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                          </p>
+                        </div>
+                </div>
+
+          </div>
+          <div class="card-deck my-4">
+                <div class="card text-white">
+                        <img class="card-img" src="img/speakers/4.jpg" alt="Card image">
+                        <div class="card-img-overlay textHover pt-2">
+                          <h4 class="card-title">Jack Christiansen</h4>
+                          <p class="card-text font-italic">Debitis iure vero</p>
+                          <p class="card-text">
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-google-plus-g"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                          </p>
+                        </div>
+                </div>
+                <div class="card text-white">
+                        <img class="card-img" src="img/speakers/5.jpg" alt="Card image">
+                        <div class="card-img-overlay textHover pt-2">
+                          <h4 class="card-title">Alejandrin Littel</h4>
+                          <p class="card-text font-italic">Qui molestiae natus</p>
+                          <p class="card-text">
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-google-plus-g"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                          </p>
+                        </div>
+                </div>
+                <div class="card text-white">
+                        <img class="card-img" src="img/speakers/6.jpg" alt="Card image">
+                        <div class="card-img-overlay textHover pt-2">
+                          <h4 class="card-title">Willow Trantow</h4>
+                          <p class="card-text font-italic">Non autem dicta</p>
+                          <p class="card-text">
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-google-plus-g"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                          </p>
+                        </div>
+                </div>
+
+          </div>
+
+        </section>
+
+         <!-- 4th section (schedule)-->
+        <section id="scheduleSection" class="bg-light  text-center p-5">
+            <h1 class="font-weight-bold mt-3">EVENT SCHEDULE</h1>
+            <h5 class="text-secondary ">Here is our event schedule</h5>
+            <hr class="redLine">
+            <br>
+            <div class="container threeDaysPart px-5">
+                <ul class="nav nav-tabs my-4 border-bottom-0" id="myTab" role="tablist">
+                    <li class="nav-item col-4 px-1">
+                        <a class="nav-link text-white active" id="day1-tab" data-toggle="tab" href="#day1" role="tab" aria-controls="day1" aria-selected="true">Day 1</a>
+                    </li>
+                    <li class="nav-item col-4 px-1">
+                        <a class="nav-link text-white" id="day2-tab" data-toggle="tab" href="#day2" role="tab" aria-controls="day2" aria-selected="false">Day 2</a>
+                    </li>
+                    <li class="nav-item col-4 px-1">
+                        <a class="nav-link text-white" id="day3-tab" data-toggle="tab" href="#day3" role="tab" aria-controls="day3" aria-selected="false">Day 3</a>
+                    </li>
+                </ul>
+                <h5 class="font-italic text-dark">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet 
+                    officia. Eius necessitatibus Voluptatem quis labore perspiciatis quia.
+                </h5>
+                <div class="tab-content my-4" id="myTabContent">
+                    <div class="tab-pane fade show active" id="day1" role="tabpanel" aria-labelledby="day1-tab">
+                         <article class="border-bottom row text-left py-4">
+                                <p class="col-2 text-secondary">09:30 AM</p>
+                                <div class="col-10">
+                                    <h6>Registration</h6>
+                                    <p class="font-italic text-secondary">
+                                        Fugit voluptas iusto maiores temporibus autem numquam magnam
+                                    </p>
+                                </div>
+                         </article>
+                         <article class="border-bottom row text-left py-3">
+                                <p class="col-2 text-secondary">10:00 AM</p>
+                                <div class="col-10">
+                                 <img src="img/speakers/1.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                 <h6 >Keynote <span class="font-italic text-secondary">Brenden Legros</span></h6>
+                                 <p class="font-italic text-secondary">
+                                        Facere provident incidunt quos voluptas.
+                                 </p>
+                                </div>
+                         </article>
+                         <article class="border-bottom row text-left py-3">
+                                <p class="col-2 text-secondary">11:00 AM</p>
+                                <div class="col-10">
+                                 <img src="img/speakers/2.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                 <h6 >Et voluptatem iusto dicta nobis. <span class="font-italic text-secondary">Hubert Hirthe</span></h6>
+                                 <p class="font-italic text-secondary">
+                                        Maiores dignissmos neque qui cum accusantium ut sit sint inventore.
+                                 </p>
+                                </div>
+                         </article>
+                         <article class="border-bottom row text-left py-3">
+                                <p class="col-2 text-secondary">12:00 AM</p>
+                                <div class="col-10">
+                                 <img src="img/speakers/3.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                 <h6 >Explicabo et rerum quis et ut ea. <span class="font-italic text-secondary">Cole Emmerich</span></h6>
+                                 <p class="font-italic text-secondary">
+                                        veniam accusantium laborum nihil eos eaque accusantium aspernatur.
+                                 </p>
+                                </div>
+                         </article>
+                         <article class="border-bottom row text-left py-3">
+                                <p class="col-2 text-secondary">02:00 PM</p>
+                                <div class="col-10">
+                                 <img src="img/speakers/4.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                 <h6 >Qui non qui vel amet culpa sequi. <span class="font-italic text-secondary">Jack Christiansen</span></h6>
+                                 <p class="font-italic text-secondary">
+                                        Nam ex distinctio voluptatem doloremque suscipit iusto.
+                                 </p>
+                                </div>
+                         </article>
+                         <article class="border-bottom row text-left py-3">
+                                <p class="col-2 text-secondary">03:00 PM</p>
+                                <div class="col-10">
+                                 <img src="img/speakers/5.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                 <h6 >Quos ratione neque expedita asperiores. <span class="font-italic text-secondary">Alejandrin Littel</span></h6>
+                                 <p class="font-italic text-secondary">
+                                        Eligendi quo eveniet est nobis et ad temporibus odio quo.
+                                 </p>
+                                </div>
+                         </article>
+                         <article class="border-bottom row text-left py-3">
+                                <p class="col-2 text-secondary">04:00 PM</p>
+                                <div class="col-10">
+                                 <img src="img/speakers/6.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                 <h6 >Quo qui praesentium nesciunt<span class="font-italic text-secondary">Willow Tantow</span></h6>
+                                 <p class="font-italic text-secondary">
+                                     Voluptatem et alias dolorum est aut sit enim neque veritatis.
+                                 </p>
+                                </div>
+                         </article>
+                            
+                            
+                        
+                    </div>
+                    <div class="tab-pane fade" id="day2" role="tabpanel" aria-labelledby="day2-tab">
+                            <article class="border-bottom row text-left py-3">
+                                    <p class="col-2 text-secondary">10:00 AM</p>
+                                    <div class="col-10">
+                                     <img src="img/speakers/1.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <h6 >Keynote <span class="font-italic text-secondary">Brenden Legros</span></h6>
+                                     <p class="font-italic text-secondary">
+                                            Facere provident incidunt quos voluptas.
+                                     </p>
+                                    </div>
+                             </article>
+                             <article class="border-bottom row text-left py-3">
+                                    <p class="col-2 text-secondary">11:00 AM</p>
+                                    <div class="col-10">
+                                     <img src="img/speakers/2.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <h6 >Et voluptatem iusto dicta nobis. <span class="font-italic text-secondary">Hubert Hirthe</span></h6>
+                                     <p class="font-italic text-secondary">
+                                            Maiores dignissmos neque qui cum accusantium ut sit sint inventore.
+                                     </p>
+                                    </div>
+                             </article>
+                             <article class="border-bottom row text-left py-3">
+                                    <p class="col-2 text-secondary">12:00 AM</p>
+                                    <div class="col-10">
+                                     <img src="img/speakers/3.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <h6 >Explicabo et rerum quis et ut ea. <span class="font-italic text-secondary">Cole Emmerich</span></h6>
+                                     <p class="font-italic text-secondary">
+                                            veniam accusantium laborum nihil eos eaque accusantium aspernatur.
+                                     </p>
+                                    </div>
+                             </article>
+                             <article class="border-bottom row text-left py-3">
+                                    <p class="col-2 text-secondary">02:00 PM</p>
+                                    <div class="col-10">
+                                     <img src="img/speakers/4.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <h6 >Qui non qui vel amet culpa sequi. <span class="font-italic text-secondary">Jack Christiansen</span></h6>
+                                     <p class="font-italic text-secondary">
+                                            Nam ex distinctio voluptatem doloremque suscipit iusto.
+                                     </p>
+                                    </div>
+                             </article>
+                             <article class="border-bottom row text-left py-3">
+                                    <p class="col-2 text-secondary">03:00 PM</p>
+                                    <div class="col-10">
+                                     <img src="img/speakers/5.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <h6 >Quos ratione neque expedita asperiores. <span class="font-italic text-secondary">Alejandrin Littel</span></h6>
+                                     <p class="font-italic text-secondary">
+                                            Eligendi quo eveniet est nobis et ad temporibus odio quo.
+                                     </p>
+                                    </div>
+                             </article>
+                             <article class="border-bottom row text-left py-3">
+                                    <p class="col-2 text-secondary">04:00 PM</p>
+                                    <div class="col-10">
+                                     <img src="img/speakers/6.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <h6 >Quo qui praesentium nesciunt<span class="font-italic text-secondary">Willow Tantow</span></h6>
+                                     <p class="font-italic text-secondary">
+                                         Voluptatem et alias dolorum est aut sit enim neque veritatis.
+                                     </p>
+                                    </div>
+                             </article>
+                    </div>
+                    <div class="tab-pane fade" id="day3" role="tabpanel" aria-labelledby="day3-tab">
+                             <article class="border-bottom row text-left py-3">
+                                    <p class="col-2 text-secondary">10:00 AM</p>
+                                    <div class="col-10">
+                                     <img src="img/speakers/2.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <h6 >Et voluptatem iusto dicta nobis. <span class="font-italic text-secondary">Hubert Hirthe</span></h6>
+                                     <p class="font-italic text-secondary">
+                                            Maiores dignissmos neque qui cum accusantium ut sit sint inventore.
+                                     </p>
+                                    </div>
+                             </article>
+                             <article class="border-bottom row text-left py-3">
+                                    <p class="col-2 text-secondary">11:00 AM</p>
+                                    <div class="col-10">
+                                     <img src="img/speakers/3.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <h6 >Explicabo et rerum quis et ut ea. <span class="font-italic text-secondary">Cole Emmerich</span></h6>
+                                     <p class="font-italic text-secondary">
+                                            veniam accusantium laborum nihil eos eaque accusantium aspernatur.
+                                     </p>
+                                    </div>
+                             </article>
+                             <article class="border-bottom row text-left py-3">
+                                    <p class="col-2 text-secondary">12:00 AM</p>
+                                    <div class="col-10">
+                                     <img src="img/speakers/1.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <h6 >Keynote <span class="font-italic text-secondary">Brenden Legros</span></h6>
+                                     <p class="font-italic text-secondary">
+                                            Facere provident incidunt quos voluptas.
+                                     </p>
+                                    </div>
+                             </article>
+                             <article class="border-bottom row text-left py-3">
+                                    <p class="col-2 text-secondary">02:00 PM</p>
+                                    <div class="col-10">
+                                     <img src="img/speakers/4.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <h6 >Qui non qui vel amet culpa sequi. <span class="font-italic text-secondary">Jack Christiansen</span></h6>
+                                     <p class="font-italic text-secondary">
+                                            Nam ex distinctio voluptatem doloremque suscipit iusto.
+                                     </p>
+                                    </div>
+                             </article>
+                             <article class="border-bottom row text-left py-3">
+                                    <p class="col-2 text-secondary">03:00 PM</p>
+                                    <div class="col-10">
+                                     <img src="img/speakers/5.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <h6 >Quos ratione neque expedita asperiores. <span class="font-italic text-secondary">Alejandrin Littel</span></h6>
+                                     <p class="font-italic text-secondary">
+                                            Eligendi quo eveniet est nobis et ad temporibus odio quo.
+                                     </p>
+                                    </div>
+                             </article>
+                             <article class="border-bottom row text-left py-3">
+                                    <p class="col-2 text-secondary">04:00 PM</p>
+                                    <div class="col-10">
+                                     <img src="img/speakers/6.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <h6 >Quo qui praesentium nesciunt<span class="font-italic text-secondary">Willow Tantow</span></h6>
+                                     <p class="font-italic text-secondary">
+                                         Voluptatem et alias dolorum est aut sit enim neque veritatis.
+                                     </p>
+                                    </div>
+                             </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5th section (venue)-->
+        <section id="venueSection" class="container-fluid py-5">
+              <h1 class="font-weight-bold mt-4 text-center">EVENT VENUE</h1>
+              <h5 class="text-secondary text-center">Event venue location info and gallery</h5>
+              <hr class="redLine">
+              
+              <div class="row mt-5">
+                 <img class="col-6 px-1 mb-1" src="" alt="error" height="330px">
+                 <div class="card text-white col-6 border-0 px-0 mb-1">
+                     <img class="card-img" src="img/venue-info-bg.jpg" height="400px" alt="Card image">
+                     <div class="card-img-overlay textHover">
+                            <h2 class="card-title text-left font-weight-bold">Downtown<br>
+                            Conference Center,<br>
+                            New York</h2>
+                            <address class="card-text text-left pr-5 font-weight-lighter">
+                                   Iste nobis eum sapiente sunt enim dolores labore
+                                   accusantium autem. Cumque beatae ipsam. Est quae sit qui
+                                   voluptatem corporis velit. Qui maxime accusamus possimus.
+                                   consequatur sequi et ea suscipit enim nesciunt quia velit.
+                            </address>
+                     </div>
+                 </div>
+                 
+                 <img class="col-3 px-1 mb-1" src="img/venue-gallery/1.jpg" height="200px" >
+                 <img class="col-3 px-1" src="img/venue-gallery/2.jpg" height="200px">
+                 <img class="col-3 px-1" src="img/venue-gallery/3.jpg" height="200px">
+                 <img class="col-3 px-1" src="img/venue-gallery/4.jpg" height="200px">
+                 <img class="col-3 px-1" src="img/venue-gallery/5.jpg" height="200px" >
+                 <img class="col-3 px-1" src="img/venue-gallery/6.jpg" height="200px">
+                 <img class="col-3 px-1" src="img/venue-gallery/7.jpg" height="200px">
+                 <img class="col-3 px-1" src="img/venue-gallery/8.jpg" height="200px">
+                 
+              </div>
+        </section>
+
+        <!-- 6th section (hotels)-->
+        <section id="hotelsSection" class="bg-light container-fluid py-5">
+              <h1 class="font-weight-bold mt-4 text-center">HOTELS</h1>
+              <h6 class="font-italic text-center mb-5">Here are some nearby hotels</h6>
+              <hr class="redLine">
+                     
+              <div class="card-deck container my-5">
+                     <div class="card">
+                            <img class="card-img-top" src="img/hotels/1.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Hotel 1</h5>
+                            <p class="card-text">
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                            </p>
+                            <p class="card-text font-italic">
+                                   0.4 Mile from the Venue
+                            </p>
+                            </div>
+                     </div>
+                     <div class="card">
+                            <img class="card-img-top" src="img/hotels/2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Hotel 2</h5>
+                            <p class="card-text">
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star-half-alt"></i>
+                            </p>
+                            <p class="card-text font-italic">
+                                          0.5 Mile from the Venue
+                            </p>
+                            </div>
+                     </div>
+                     <div class="card">
+                            <img class="card-img-top" src="img/hotels/3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Hotel 3</h5>
+                            <p class="card-text font-italic">
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                            </p>
+                            <p class="card-text">
+                                          0.6 Mile from the Venue
+                            </p>
+                            </div>
+                     </div>
+              </div>
+        </section>
+
+        <!-- 7th section (gallery -image slider-)-->
+        <section id="gallerySection">
+              <h1 class="font-weight-bold mt-5 pt-4 text-center">GALLERY</h1>
+              <h4 class="text-secondary pb-2 text-center">Check our gallery from the recent events</h4>
+              <hr class="redLine">
+                <!-- slider -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                     </ol>
+                     <div class="carousel-inner row" >
+                            <div class="carousel-item col active">
+                                 <img class="" width="240px" src="img/gallery/1.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item col">
+                                  <img class=""  width="240px" src="img/gallery/2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item col">
+                                  <img class=""  width="240px" src="img/gallery/3.jpg" alt="Third slide">
+                            </div>
+                            <div class="carousel-item col">
+                                   <img class=""  width="240px" src="img/gallery/4.jpg" alt="Third slide">
+                            </div>
+                            <div class="carousel-item col">
+                                  <img class=""  width="240px" src="img/gallery/5.jpg" alt="Third slide">
+                            </div>
+                            <div class="carousel-item col">
+                                   <img class=""  width="240px" src="img/gallery/6.jpg" alt="Third slide">
+                            </div>
+                            <div class="carousel-item col">
+                                   <img class=""  width="240px" src="img/gallery/7.jpg" alt="Third slide">
+                            </div>
+                            <div class="carousel-item col">
+                                   <img class=""  width="240px" src="img/gallery/8.jpg" alt="Third slide">
+                            </div>
+                     </div>
+                     
+               </div>
+
+
+        </section>
+        <section id="sponsorsSection">
+
+        </section>
+        <section id="contactSection">
+
+        </section>
+        <section id="buyTicketsSection">
+
+        </section>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>   
+    </body>
+</html>

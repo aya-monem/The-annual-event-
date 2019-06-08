@@ -1,0 +1,166 @@
+$mainColor :#f82249;
+$secondColor: #2f3138;
+body{
+    font-family: "Open Sans", sans-serif;
+}
+         // home section //
+#homeSection{
+    background: linear-gradient( rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../img/intro-bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;
+    background-color: black;
+    height:500px;
+    padding-right:0px;
+    padding-left:0px;
+    .navBar{
+        width : 100%;
+        height: 65px;
+        background-color: rgba(0,0,0,0.9);
+         li a{
+            text-decoration: none;
+            color: rgba(202, 206, 221, 0.8);
+            font-size: 14px; 
+            &:hover{
+                color:white;
+                border-bottom: 2px solid $mainColor;
+            } 
+         }
+         .buyTickets{
+            background-color:$mainColor;
+            border:2px solid $mainColor;
+            border-radius:50px;
+            &:hover{
+                background-color: rgba(0,0,0,0.7); 
+                a{
+                    border-bottom: 0px; 
+                }
+            }
+         }   
+    }
+    .titlePart{
+        padding-top : 90px;
+        h1{
+            font-size: 50px;
+        }
+        .circle{
+            width: 94px;
+            height: 94px;
+            background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
+            border-radius: 50%;
+            display: block;
+            margin : auto;
+            position: relative;
+            i{
+                font-size: 20px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+            &:hover{
+                background-color: $mainColor ;
+            }
+        } 
+        .aboutBtn{
+           border:1.5px solid $mainColor;
+           border-radius:30px;
+           &:hover{
+            background-color: $mainColor;
+             }
+        }
+    }
+    .red{
+        color:$mainColor;
+    }
+    
+}
+
+             // about section //
+#aboutSection{
+    background: linear-gradient( rgba(0,0,0,0.8), rgba(0,0,0,0.8) ), url('../img/about-bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;
+    background-color: black;
+    padding:70px;
+   p{
+       font-size: 14px;
+   }
+}
+
+        // speakers section //
+#speakersSection{
+    .textHover{
+        background-color: rgba(0,0,0,0.6);
+        top : 60%;
+        &:hover{
+            top : 40%;
+            transition: 0.5s ease;
+        } 
+        i:hover{
+            color:$mainColor;
+        }
+    }
+}
+.redLine{
+    width : 6%;
+    height : 5px;
+    background :$mainColor;
+}
+       // schedule section//
+
+#scheduleSection{
+    width:100%;
+    .threeDaysPart{
+        width:80%;
+        a{
+            background-color: #0e1b4d;
+            border-radius :50px;
+            &.active{
+                background-color: $mainColor;  
+              }
+        }
+        article{
+            font-size: 11px;
+            &:hover{
+                background-color: white;
+            }
+        }   
+    }   
+}
+
+     //  venue section //
+#venueSection{
+    .textHover{
+      background-color: rgba(0,0,0,0.8);
+      padding:55px 85px;
+    }
+    address{
+        font-size: 15.5px;
+    }
+ }
+          
+     //  hotels section //
+ #hotelsSection{
+     .card-deck{
+        margin:auto;
+        h5{
+            color :#152b79;
+            cursor: pointer;
+            &:hover{
+                color:$mainColor;
+            }
+        }
+        i{
+            font-size: 10px;
+            color:rgb(255, 195, 29); // #ffc31d;
+        }
+     }
+ }
+
+     // gallery (image slider) section //
+ #gallerySection{
+
+ }
+
