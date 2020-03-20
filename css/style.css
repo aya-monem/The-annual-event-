@@ -82,6 +82,7 @@ body {
   background: #f82249; }
 
 #scheduleSection {
+  background-color: #f6f7fd;
   width: 100%; }
   #scheduleSection .threeDaysPart {
     width: 80%; }
@@ -90,10 +91,11 @@ body {
       border-radius: 50px; }
       #scheduleSection .threeDaysPart a.active {
         background-color: #f82249; }
-    #scheduleSection .threeDaysPart article {
-      font-size: 11px; }
-      #scheduleSection .threeDaysPart article:hover {
-        background-color: white; }
+    #scheduleSection .threeDaysPart article:hover {
+      background-color: white; }
+    #scheduleSection .threeDaysPart article p {
+      font-size: 16px;
+      color: #152b79; }
 
 #venueSection .textHover {
   background-color: rgba(0, 0, 0, 0.8);
@@ -112,3 +114,7 @@ body {
   #hotelsSection .card-deck i {
     font-size: 10px;
     color: #ffc31d; }
+
+#gallerySection {
+  flex-wrap: nowrap;
+  overflow: hidden; }

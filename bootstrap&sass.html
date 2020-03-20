@@ -6,25 +6,28 @@
         <title> Bootstrap & SCSS </title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" />
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <!-- 1st section (home & navBar)-->
         <section id="homeSection" class="container-fluid ">
                 
-                <ul class="navBar fixed-top list-inline py-3">
+                <ul class="navBar fixed-top list-inline py-4 pb-5">
                    <li class="list-inline-item col-3"><img src="img/logo.png" alt="logo" width="200" height="40"></li>
-                   <li class="list-inline-item ml-4"><a href="#homeSection" class="pb-2">Home</a></li>
-                   <li class="list-inline-item ml-2"><a href="#aboutSection" class=" pb-2">About</a></li>
-                   <li class="list-inline-item ml-2"><a href="#speakersSection" class="pb-2">Speakers</a></li>
-                   <li class="list-inline-item ml-2"><a href="#scheduleSection" class="pb-2">Schedule</a></li>
-                   <li class="list-inline-item ml-2"><a href="#venueSection" class="pb-2">Venue</a></li>
-                   <li class="list-inline-item ml-2"><a href="#hotelsSection" class="pb-2">Hotels</a></li>
-                   <li class="list-inline-item ml-2"><a href="#gallerySection" class="pb-2">Gallery</a></li>
-                   <li class="list-inline-item ml-2"><a href="#" class="pb-2">Sponsors</a></li>
-                   <li class="list-inline-item ml-2 "><a href="#" class="pb-2">Contact</a></li>
-                   <li class="list-inline-item ml-2 ">
-                       <button  type="button"class="btn btn-outline-danger px-4 buyTickets">
+                   <li class="list-inline-item font-weight-bold ml-5"><a href="#homeSection" class="pb-2">Home</a></li>
+                   <li class="list-inline-item font-weight-bold ml-1"><a href="#aboutSection" class=" pb-2">About</a></li>
+                   <li class="list-inline-item font-weight-bold ml-1"><a href="#speakersSection" class="pb-2">Speakers</a></li>
+                   <li class="list-inline-item font-weight-bold ml-1"><a href="#scheduleSection" class="pb-2">Schedule</a></li>
+                   <li class="list-inline-item font-weight-bold ml-1"><a href="#venueSection" class="pb-2">Venue</a></li>
+                   <li class="list-inline-item font-weight-bold ml-1"><a href="#hotelsSection" class="pb-2">Hotels</a></li>
+                   <li class="list-inline-item font-weight-bold ml-1"><a href="#gallerySection" class="pb-2">Gallery</a></li>
+                   <li class="list-inline-item font-weight-bold ml-1"><a href="#" class="pb-2">Sponsors</a></li>
+                   <li class="list-inline-item font-weight-bold ml-1"><a href="#" class="pb-2">Contact</a></li>
+                   <li class="list-inline-item ml-1">
+                       <button  type="button"class="btn btn-outline-danger px-4 py-0 mr-0 buyTickets">
                             <a href="#" class="text-white"> Buy Tickets</a>
                        </button>
                     
@@ -170,7 +173,7 @@
         </section>
 
          <!-- 4th section (schedule)-->
-        <section id="scheduleSection" class="bg-light  text-center p-5">
+        <section id="scheduleSection" class="text-center p-5">
             <h1 class="font-weight-bold mt-3">EVENT SCHEDULE</h1>
             <h5 class="text-secondary ">Here is our event schedule</h5>
             <hr class="redLine">
@@ -192,21 +195,21 @@
                 </h5>
                 <div class="tab-content my-4" id="myTabContent">
                     <div class="tab-pane fade show active" id="day1" role="tabpanel" aria-labelledby="day1-tab">
-                         <article class="border-bottom row text-left py-4">
+                         <article class="border-bottom row text-left pt-3 pb-1">
                                 <p class="col-2 text-secondary">09:30 AM</p>
                                 <div class="col-10">
-                                    <h6>Registration</h6>
-                                    <p class="font-italic text-secondary">
-                                        Fugit voluptas iusto maiores temporibus autem numquam magnam
+                                    <h5 class="font-weight-bold">Registration</h5>
+                                    <p class="font-italic">
+                                        Fugit voluptas iusto maiores temporibus autem numquam magnam.
                                     </p>
                                 </div>
                          </article>
                          <article class="border-bottom row text-left py-3">
                                 <p class="col-2 text-secondary">10:00 AM</p>
                                 <div class="col-10">
-                                 <img src="img/speakers/1.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
-                                 <h6 >Keynote <span class="font-italic text-secondary">Brenden Legros</span></h6>
-                                 <p class="font-italic text-secondary">
+                                 <img src="img/speakers/1.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
+                                 <h6>Keynote <span class="font-italic text-secondary">Brenden Legros</span></h6>
+                                 <p class="font-italic">
                                         Facere provident incidunt quos voluptas.
                                  </p>
                                 </div>
@@ -214,9 +217,9 @@
                          <article class="border-bottom row text-left py-3">
                                 <p class="col-2 text-secondary">11:00 AM</p>
                                 <div class="col-10">
-                                 <img src="img/speakers/2.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
-                                 <h6 >Et voluptatem iusto dicta nobis. <span class="font-italic text-secondary">Hubert Hirthe</span></h6>
-                                 <p class="font-italic text-secondary">
+                                 <img src="img/speakers/2.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
+                                 <h6>Et voluptatem iusto dicta nobis. <span class="font-italic text-secondary">Hubert Hirthe</span></h6>
+                                 <p class="font-italic">
                                         Maiores dignissmos neque qui cum accusantium ut sit sint inventore.
                                  </p>
                                 </div>
@@ -224,9 +227,9 @@
                          <article class="border-bottom row text-left py-3">
                                 <p class="col-2 text-secondary">12:00 AM</p>
                                 <div class="col-10">
-                                 <img src="img/speakers/3.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                 <img src="img/speakers/3.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
                                  <h6 >Explicabo et rerum quis et ut ea. <span class="font-italic text-secondary">Cole Emmerich</span></h6>
-                                 <p class="font-italic text-secondary">
+                                 <p class="font-italic">
                                         veniam accusantium laborum nihil eos eaque accusantium aspernatur.
                                  </p>
                                 </div>
@@ -234,9 +237,9 @@
                          <article class="border-bottom row text-left py-3">
                                 <p class="col-2 text-secondary">02:00 PM</p>
                                 <div class="col-10">
-                                 <img src="img/speakers/4.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                 <img src="img/speakers/4.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
                                  <h6 >Qui non qui vel amet culpa sequi. <span class="font-italic text-secondary">Jack Christiansen</span></h6>
-                                 <p class="font-italic text-secondary">
+                                 <p class="font-italic">
                                         Nam ex distinctio voluptatem doloremque suscipit iusto.
                                  </p>
                                 </div>
@@ -244,9 +247,9 @@
                          <article class="border-bottom row text-left py-3">
                                 <p class="col-2 text-secondary">03:00 PM</p>
                                 <div class="col-10">
-                                 <img src="img/speakers/5.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                 <img src="img/speakers/5.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
                                  <h6 >Quos ratione neque expedita asperiores. <span class="font-italic text-secondary">Alejandrin Littel</span></h6>
-                                 <p class="font-italic text-secondary">
+                                 <p class="font-italic">
                                         Eligendi quo eveniet est nobis et ad temporibus odio quo.
                                  </p>
                                 </div>
@@ -254,9 +257,9 @@
                          <article class="border-bottom row text-left py-3">
                                 <p class="col-2 text-secondary">04:00 PM</p>
                                 <div class="col-10">
-                                 <img src="img/speakers/6.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
-                                 <h6 >Quo qui praesentium nesciunt<span class="font-italic text-secondary">Willow Tantow</span></h6>
-                                 <p class="font-italic text-secondary">
+                                 <img src="img/speakers/6.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
+                                 <h6 >Quo qui praesentium nesciunt<span class="font-italic text-secondary"> Willow Tantow</span></h6>
+                                 <p class="font-italic">
                                      Voluptatem et alias dolorum est aut sit enim neque veritatis.
                                  </p>
                                 </div>
@@ -269,9 +272,9 @@
                             <article class="border-bottom row text-left py-3">
                                     <p class="col-2 text-secondary">10:00 AM</p>
                                     <div class="col-10">
-                                     <img src="img/speakers/1.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <img src="img/speakers/1.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
                                      <h6 >Keynote <span class="font-italic text-secondary">Brenden Legros</span></h6>
-                                     <p class="font-italic text-secondary">
+                                     <p class="font-italic">
                                             Facere provident incidunt quos voluptas.
                                      </p>
                                     </div>
@@ -279,9 +282,9 @@
                              <article class="border-bottom row text-left py-3">
                                     <p class="col-2 text-secondary">11:00 AM</p>
                                     <div class="col-10">
-                                     <img src="img/speakers/2.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <img src="img/speakers/2.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
                                      <h6 >Et voluptatem iusto dicta nobis. <span class="font-italic text-secondary">Hubert Hirthe</span></h6>
-                                     <p class="font-italic text-secondary">
+                                     <p class="font-italic">
                                             Maiores dignissmos neque qui cum accusantium ut sit sint inventore.
                                      </p>
                                     </div>
@@ -289,9 +292,9 @@
                              <article class="border-bottom row text-left py-3">
                                     <p class="col-2 text-secondary">12:00 AM</p>
                                     <div class="col-10">
-                                     <img src="img/speakers/3.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <img src="img/speakers/3.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
                                      <h6 >Explicabo et rerum quis et ut ea. <span class="font-italic text-secondary">Cole Emmerich</span></h6>
-                                     <p class="font-italic text-secondary">
+                                     <p class="font-italic">
                                             veniam accusantium laborum nihil eos eaque accusantium aspernatur.
                                      </p>
                                     </div>
@@ -299,9 +302,9 @@
                              <article class="border-bottom row text-left py-3">
                                     <p class="col-2 text-secondary">02:00 PM</p>
                                     <div class="col-10">
-                                     <img src="img/speakers/4.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <img src="img/speakers/4.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
                                      <h6 >Qui non qui vel amet culpa sequi. <span class="font-italic text-secondary">Jack Christiansen</span></h6>
-                                     <p class="font-italic text-secondary">
+                                     <p class="font-italic">
                                             Nam ex distinctio voluptatem doloremque suscipit iusto.
                                      </p>
                                     </div>
@@ -309,9 +312,9 @@
                              <article class="border-bottom row text-left py-3">
                                     <p class="col-2 text-secondary">03:00 PM</p>
                                     <div class="col-10">
-                                     <img src="img/speakers/5.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <img src="img/speakers/5.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
                                      <h6 >Quos ratione neque expedita asperiores. <span class="font-italic text-secondary">Alejandrin Littel</span></h6>
-                                     <p class="font-italic text-secondary">
+                                     <p class="font-italic">
                                             Eligendi quo eveniet est nobis et ad temporibus odio quo.
                                      </p>
                                     </div>
@@ -319,9 +322,9 @@
                              <article class="border-bottom row text-left py-3">
                                     <p class="col-2 text-secondary">04:00 PM</p>
                                     <div class="col-10">
-                                     <img src="img/speakers/6.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <img src="img/speakers/6.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
                                      <h6 >Quo qui praesentium nesciunt<span class="font-italic text-secondary">Willow Tantow</span></h6>
-                                     <p class="font-italic text-secondary">
+                                     <p class="font-italic">
                                          Voluptatem et alias dolorum est aut sit enim neque veritatis.
                                      </p>
                                     </div>
@@ -331,9 +334,9 @@
                              <article class="border-bottom row text-left py-3">
                                     <p class="col-2 text-secondary">10:00 AM</p>
                                     <div class="col-10">
-                                     <img src="img/speakers/2.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <img src="img/speakers/2.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
                                      <h6 >Et voluptatem iusto dicta nobis. <span class="font-italic text-secondary">Hubert Hirthe</span></h6>
-                                     <p class="font-italic text-secondary">
+                                     <p class="font-italic">
                                             Maiores dignissmos neque qui cum accusantium ut sit sint inventore.
                                      </p>
                                     </div>
@@ -341,9 +344,9 @@
                              <article class="border-bottom row text-left py-3">
                                     <p class="col-2 text-secondary">11:00 AM</p>
                                     <div class="col-10">
-                                     <img src="img/speakers/3.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <img src="img/speakers/3.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
                                      <h6 >Explicabo et rerum quis et ut ea. <span class="font-italic text-secondary">Cole Emmerich</span></h6>
-                                     <p class="font-italic text-secondary">
+                                     <p class="font-italic">
                                             veniam accusantium laborum nihil eos eaque accusantium aspernatur.
                                      </p>
                                     </div>
@@ -351,9 +354,9 @@
                              <article class="border-bottom row text-left py-3">
                                     <p class="col-2 text-secondary">12:00 AM</p>
                                     <div class="col-10">
-                                     <img src="img/speakers/1.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <img src="img/speakers/1.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
                                      <h6 >Keynote <span class="font-italic text-secondary">Brenden Legros</span></h6>
-                                     <p class="font-italic text-secondary">
+                                     <p class="font-italic">
                                             Facere provident incidunt quos voluptas.
                                      </p>
                                     </div>
@@ -361,9 +364,9 @@
                              <article class="border-bottom row text-left py-3">
                                     <p class="col-2 text-secondary">02:00 PM</p>
                                     <div class="col-10">
-                                     <img src="img/speakers/4.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <img src="img/speakers/4.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
                                      <h6 >Qui non qui vel amet culpa sequi. <span class="font-italic text-secondary">Jack Christiansen</span></h6>
-                                     <p class="font-italic text-secondary">
+                                     <p class="font-italic">
                                             Nam ex distinctio voluptatem doloremque suscipit iusto.
                                      </p>
                                     </div>
@@ -371,9 +374,9 @@
                              <article class="border-bottom row text-left py-3">
                                     <p class="col-2 text-secondary">03:00 PM</p>
                                     <div class="col-10">
-                                     <img src="img/speakers/5.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <img src="img/speakers/5.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
                                      <h6 >Quos ratione neque expedita asperiores. <span class="font-italic text-secondary">Alejandrin Littel</span></h6>
-                                     <p class="font-italic text-secondary">
+                                     <p class="font-italic">
                                             Eligendi quo eveniet est nobis et ad temporibus odio quo.
                                      </p>
                                     </div>
@@ -381,9 +384,9 @@
                              <article class="border-bottom row text-left py-3">
                                     <p class="col-2 text-secondary">04:00 PM</p>
                                     <div class="col-10">
-                                     <img src="img/speakers/6.jpg" class="rounded-circle float-left mr-3" width="65px" height="65px">
+                                     <img src="img/speakers/6.jpg" class="rounded-circle float-left mr-3" width="63px" height="60px">
                                      <h6 >Quo qui praesentium nesciunt<span class="font-italic text-secondary">Willow Tantow</span></h6>
-                                     <p class="font-italic text-secondary">
+                                     <p class="font-italic">
                                          Voluptatem et alias dolorum est aut sit enim neque veritatis.
                                      </p>
                                     </div>
@@ -477,7 +480,7 @@
                                           <i class="fas fa-star"></i>
                                           <i class="fas fa-star"></i>
                             </p>
-                            <p class="card-text">
+                            <p class="card-text font-italic">
                                           0.6 Mile from the Venue
                             </p>
                             </div>
@@ -486,52 +489,38 @@
         </section>
 
         <!-- 7th section (gallery -image slider-)-->
-        <section id="gallerySection">
-              <h1 class="font-weight-bold mt-5 pt-4 text-center">GALLERY</h1>
+        <section id="gallerySection" class="py-4">
+              <h1 class="font-weight-bold mt-5 text-center">GALLERY</h1>
               <h4 class="text-secondary pb-2 text-center">Check our gallery from the recent events</h4>
               <hr class="redLine">
                 <!-- slider -->
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                     <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-                     </ol>
-                     <div class="carousel-inner row" >
-                            <div class="carousel-item col active">
-                                 <img class="" width="240px" src="img/gallery/1.jpg" alt="First slide">
-                            </div>
-                            <div class="carousel-item col">
-                                  <img class=""  width="240px" src="img/gallery/2.jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item col">
-                                  <img class=""  width="240px" src="img/gallery/3.jpg" alt="Third slide">
-                            </div>
-                            <div class="carousel-item col">
-                                   <img class=""  width="240px" src="img/gallery/4.jpg" alt="Third slide">
-                            </div>
-                            <div class="carousel-item col">
-                                  <img class=""  width="240px" src="img/gallery/5.jpg" alt="Third slide">
-                            </div>
-                            <div class="carousel-item col">
-                                   <img class=""  width="240px" src="img/gallery/6.jpg" alt="Third slide">
-                            </div>
-                            <div class="carousel-item col">
-                                   <img class=""  width="240px" src="img/gallery/7.jpg" alt="Third slide">
-                            </div>
-                            <div class="carousel-item col">
-                                   <img class=""  width="240px" src="img/gallery/8.jpg" alt="Third slide">
-                            </div>
+                <div class="owl-carousel owl-theme ">
+                     <div class="mx-2">
+                            <img src="img/gallery/1.jpg">   
                      </div>
-                     
+                     <div class="mx-2">
+                            <img src="img/gallery/2.jpg" width="250px">
+                     </div>
+                     <div class="mx-2">
+                            <img src="img/gallery/3.jpg">
+                     </div>
+                     <div class="mx-2">
+                            <img src="img/gallery/4.jpg">
+                     </div>
+                     <div class="mx-2">
+                            <img src="img/gallery/5.jpg">
+                     </div>
+                     <div class="mx-2">
+                            <img src="img/gallery/6.jpg">
+                     </div>
+                     <div class="mx-2">
+                            <img src="img/gallery/7.jpg">
+                     </div>
+                     <div class="mx-2">
+                            <img src="img/gallery/8.jpg">
+                     </div>
                </div>
-
+                
 
         </section>
         <section id="sponsorsSection">
@@ -545,6 +534,8 @@
         </section>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="js/bootstrap.min.js"></script>   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>    
     </body>
 </html>

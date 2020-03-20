@@ -111,6 +111,7 @@ body{
        // schedule section//
 
 #scheduleSection{
+    background-color: #f6f7fd;
     width:100%;
     .threeDaysPart{
         width:80%;
@@ -122,9 +123,12 @@ body{
               }
         }
         article{
-            font-size: 11px;
             &:hover{
                 background-color: white;
+            }
+            p{
+                font-size: 16px;
+                color:#152b79;
             }
         }   
     }   
@@ -160,7 +164,9 @@ body{
  }
 
      // gallery (image slider) section //
- #gallerySection{
+ 
 
- }
-
+#gallerySection{
+    flex-wrap : nowrap;
+    overflow: hidden;
+}
